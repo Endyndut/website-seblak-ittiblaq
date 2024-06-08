@@ -379,7 +379,7 @@ nav ul a:hover::after {
 /* FOOTER START */
 footer {
   background-color: var(--primary);
-  height: 12vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -391,6 +391,21 @@ footer {
   align-items: center;
 }
 
+.icon-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 8rem;
+  height: 2.3rem;
+}
+
+.icon-contact a {
+  color: white;
+}
+.icon-contact a:hover {
+  color: var(--bg);
+}
+
 .link-footer a {
   color: white;
   border-right: solid 1px white;
@@ -400,6 +415,9 @@ footer {
 }
 .link-footer a:last-child {
   border: none;
+}
+.link-footer a:hover {
+  color: var(--bg);
 }
 
 .footer-content p {
@@ -457,6 +475,15 @@ footer {
   .product-content {
     border-top: solid 20px white;
     border-bottom: solid 20px white;
+  }
+
+  .card {
+    filter: blur(0);
+    filter: brightness(100%);
+  }
+  .card:active {
+    filter: blur(30px);
+    filter: brightness(60%);
   }
 
   .contact-content form {
@@ -557,6 +584,15 @@ footer {
   }
   .product-content i {
     font-size: 1.2em;
+  }
+
+  .card {
+    filter: blur(0);
+    filter: brightness(100%);
+  }
+  .card:active {
+    filter: blur(30px);
+    filter: brightness(60%);
   }
 
   .contact-content {
