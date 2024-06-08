@@ -631,7 +631,11 @@ footer {
 @media only screen and (width <= 380px) {
   .about,
   .product {
-    height: 105vh;
+    height: 115vh;
+  }
+
+  .contact {
+    height: 110vh;
   }
 
   .contact-content {
