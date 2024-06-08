@@ -105,6 +105,7 @@ nav ul a:hover::after {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   filter: brightness(95%);
@@ -620,11 +621,21 @@ footer {
     padding: 0.6em 0;
     margin: 8% auto;
   }
+
+  .icon-contact {
+    /* background-color: aqua; */
+    width: 10rem;
+    height: 5rem;
+  }
 }
 
 @media only screen and (width <= 380px) {
   .about,
   .product {
     height: 105vh;
+  }
+
+  .contact-content {
+    padding-bottom: 8%;
   }
 }
